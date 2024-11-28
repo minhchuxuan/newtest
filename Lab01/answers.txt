@@ -1,0 +1,6 @@
+Question 6.1:
+- In the code provided, when a user selects the "Cancel" button in the JOptionPane.showConfirmDialog, the value of the option variable will be set to JOptionPane.CANCEL_OPTION.
+
+Since the current code only checks for JOptionPane.YES_OPTION, if the user chooses "Cancel," it will be treated the same as choosing "No" because the condition option == JOptionPane.YES_OPTION will evaluate to false. Therefore, the message "You've chosen: No" will be displayed.
+
+- To customize option to user, we use JOptionPane.showOptionDialog.
